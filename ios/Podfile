@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SNDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for SNDemo
+  pod 'FacebookSDK'
+  pod 'FBSDKShareKit'
+  pod 'FBSDKLoginKit'
+  target 'SNDemo-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SNDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
